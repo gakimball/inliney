@@ -19,10 +19,10 @@ const writeFile = pify(fs.writeFile);
 
 const cli = meow(`
   Usage
-    $ inline-css <input> <output>
+    $ inliney <input> <output>
 
   Examples
-    $ inline-css pages/*.html output
+    $ inliney pages/*.html output
 `);
 
 if (cli.input.length < 2) {
